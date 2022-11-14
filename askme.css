@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: designFont;
+    src: url(fonts/Segoe\ Script\ Bold.ttf);
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #5da5e9;
+}
+
+.login{
+    width: 360px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 40px;
+    border: solid 3px #334758;
+}
+
+.uppert{
+    position: absolute;
+    margin-left: 4px;
+    margin-bottom: 320px;
+    font-size: 56px;
+    color: white;
+    font-family: designFont;
+  
+}
+
+.login form .form-group {
+    margin-bottom: 20px;
+    
+
+}
+
+.button{
+    border: solid 3px #334758;
+    background-color: white;
+    color: black;
+    position: sticky;
+    text-align: center;
+    
+}
+
+.href{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+

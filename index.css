@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: designFont;
+    src: url(fonts/Segoe\ Script\ Bold.ttf);
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5da5e9;
+}
+
+.login{
+    width: 360px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 40px;
+    border: solid 3px #334758;
+}
+
+.login h1{
+    font-family: designFont;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.login form .form-group {
+    margin-bottom: 20px;
+    
+
+}
+
+
+
